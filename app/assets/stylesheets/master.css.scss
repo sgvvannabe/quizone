@@ -1,0 +1,29 @@
+header {
+	background:url('/assets/topbackground.png');
+}
+
+h1 {
+	font-family: Times, sans-serif;
+	color: red;
+}
+
+.dropdown-menu {
+	width: 100%;
+}
+
+.btn{
+	width: 100%;
+}
+
+.dropdown-menu li a {
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.clear {
+	clear : both;
+}
+
+hr {
+    clear:both;
+}

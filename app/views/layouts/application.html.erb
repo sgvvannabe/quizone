@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>How to make delicious macaroons</title>
+  <title>Delicious macaroons recipe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>
+
+		<div class = "col-xs-6">
+			<h1>The Best Recipe for Macaroons that even a beginner can learn!</h1>
+
+		</div>
+
+		<div class = "col-xs-2">
+			<div class="dropdown">
+				<button class="btn btn-success" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style = "word-wrap: break-word; white-space: normal">
+			 	<font color = "purple"> Ingredients </font>
+			    <span class="caret"></span>
+			  	</button>
+
+			  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			    	<li><a href="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=almond+flour">Almond Flour</a></li>
+			    	<li><a href="#">Another action</a></li>
+			    	<li><a href="#">Something else here</a></li>
+			    	<li role="separator" class="divider"></li>
+			    	<li><a href="#">Separated link</a></li>
+			  	</ul>	
+			</div>
+
+		</div>
+		
+		<div class = "col-xs-2">
+			<div class="dropdown">
+				<button class="btn btn-info" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style = "word-wrap: break-word; white-space: normal">
+			 	<font color = "brown"> Materials </font>
+			    <span class="caret"></span>
+			  	</button>
+
+			  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			    	<li><a href="#">Action</a></li>
+			    	<li><a href="#">Another action</a></li>
+			    	<li><a href="#">Something else here</a></li>
+			    	<li role="separator" class="divider"></li>
+			    	<li><a href="#">Separated link</a></li>
+			  	</ul>	
+			</div>
+	
+		</div>
+
+		<div class = "col-xs-2">
+			<div class="dropdown">
+			<button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style = "word-wrap: break-word; white-space: normal" >
+		 	<font color = "red">Filling Ingredients</font>
+		    <span class="caret"></span>
+		  	</button>
+
+		  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1" >
+		    	<li><a href="#">Actions</a></li>
+		    	<li><a href="#">Another action</a></li>
+		    	<li><a href="#">Something else here</a></li>
+		    	<li role="separator" class="divider"></li>
+		    	<li><a href="#">Separated link</a></li>
+		  	</ul>	
+			</div>
+		</div>
+	
+<hr />
+</header>
 
 <%= yield %>
 
