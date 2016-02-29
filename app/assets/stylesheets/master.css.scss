@@ -16,10 +16,17 @@
 	background:url('/assets/topbackground.png');
 }
 
-hr {
-    clear:both;
-}
-
 .navbar.navbar-default{
 	background:url('/assets/topbackground.png');
+}
+
+h1 {
+	font-style: Times, sans-serif;
+	color: #000080;
+	font-size: 25px;
+}
+
+body {
+	background:url('/assets/wallpaper.png');
+	background-size: 100% auto;
 }
