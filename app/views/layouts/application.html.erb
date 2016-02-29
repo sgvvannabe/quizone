@@ -9,66 +9,63 @@
 </head>
 <body>
 	<header>
+		<nav class="navbar navbar-default">
+		  	<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		     	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      	</button>
+		      	<a class="navbar-brand">
+	      			<font color = "red">
+      					The <b><u>BEST</b></u> Macaroon recipe that even a BEGINNER can learn!!!
+	      			</font>
+	      			<font color = "blue" size = "2">
+	      				<i>Following links to the right will take you straight to the shopping page.</i>
+	      			</font>
+      			</a>
+		    </div>
 
-		<div class = "col-xs-6">
-			<h1>The Best Recipe for Macaroons that even a beginner can learn!</h1>
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav navbar-right">
+	        	<li class="dropdown">
+		          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>MUST HAVE</b> Ingredients <span class="caret"></span></a>
+		          	<ul class="dropdown-menu">
+		            	<li><a href="#">Almond Flour</a></li>
+			            <li><a href="#">Confections' Sugar/Powder Sugar</a></li>
+			            <li><a href="#">White Sugar</a></li>
+			            <li><a href="#">Salt</a></li>
+			            <li><a href="#">Eggs</a></li>
+			            <li><a href="#">Gel food coloring</a></li>
+		          	</ul>
+		        </li>
 
-		</div>
+		        <li class="dropdown">
+		          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Equipments <span class="caret"></span></a>
+		          	<ul class="dropdown-menu">
+		            	<li><a href="#">Parchment Paper</a></li>
+			            <li><a href="#">Fine-mesh Sieve</a></li>
+			            <li><a href="#">Pastry bag with 1/4" round tip</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li>Oven</li>
+		          	</ul>
+		        </li>
 
-		<div class = "col-xs-2">
-			<div class="dropdown">
-				<button class="btn btn-success" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style = "word-wrap: break-word; white-space: normal">
-			 	<font color = "purple"> Ingredients </font>
-			    <span class="caret"></span>
-			  	</button>
+		        <li class="dropdown">
+		          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">How to make inside filling <span class="caret"></span></a>
+		          	<ul class="dropdown-menu">
+		            	<li><i>Coming Soon...</i></li>
+		          	</ul>
+		        </li>
 
-			  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    	<li><a href="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=almond+flour">Almond Flour</a></li>
-			    	<li><a href="#">Another action</a></li>
-			    	<li><a href="#">Something else here</a></li>
-			    	<li role="separator" class="divider"></li>
-			    	<li><a href="#">Separated link</a></li>
-			  	</ul>	
-			</div>
+		      	</ul>
+		    </div><!-- /.navbar-collapse -->
+		  	</div><!-- /.container-fluid -->
+		</nav>
 
-		</div>
-		
-		<div class = "col-xs-2">
-			<div class="dropdown">
-				<button class="btn btn-info" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style = "word-wrap: break-word; white-space: normal">
-			 	<font color = "brown"> Materials </font>
-			    <span class="caret"></span>
-			  	</button>
-
-			  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-			    	<li><a href="#">Action</a></li>
-			    	<li><a href="#">Another action</a></li>
-			    	<li><a href="#">Something else here</a></li>
-			    	<li role="separator" class="divider"></li>
-			    	<li><a href="#">Separated link</a></li>
-			  	</ul>	
-			</div>
-	
-		</div>
-
-		<div class = "col-xs-2">
-			<div class="dropdown">
-			<button class="btn btn-warning" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style = "word-wrap: break-word; white-space: normal" >
-		 	<font color = "red">Filling Ingredients</font>
-		    <span class="caret"></span>
-		  	</button>
-
-		  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1" >
-		    	<li><a href="#">Actions</a></li>
-		    	<li><a href="#">Another action</a></li>
-		    	<li><a href="#">Something else here</a></li>
-		    	<li role="separator" class="divider"></li>
-		    	<li><a href="#">Separated link</a></li>
-		  	</ul>	
-			</div>
-		</div>
-	
-<hr />
 </header>
 
 <%= yield %>

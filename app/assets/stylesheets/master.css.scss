@@ -1,17 +1,5 @@
-header {
-	background:url('/assets/topbackground.png');
-}
-
-h1 {
-	font-family: Times, sans-serif;
-	color: red;
-}
-
 .dropdown-menu {
-	width: 100%;
-}
-
-.btn{
+	background:url('/assets/topbackground.png');
 	width: 100%;
 }
 
@@ -20,10 +8,18 @@ h1 {
     white-space: normal;
 }
 
-.clear {
-	clear : both;
+.dropdown-toggle{
+	background:url('/assets/topbackground.png');
+}
+
+.button {
+	background:url('/assets/topbackground.png');
 }
 
 hr {
     clear:both;
+}
+
+.navbar.navbar-default{
+	background:url('/assets/topbackground.png');
 }
