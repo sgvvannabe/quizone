@@ -1,0 +1,26 @@
+<div class="booyah-box col-xs-10 col-xs-offset-1">
+  <h1>Share how you make your own fillings!</h1>
+  <%= simple_form_for @recipe do |f| %>
+    <%= f.input :filling %>
+    <%= f.input :direction %>
+    <%= f.input :difficulty, as: :select, collection: Recipe::DIFFICULTIES %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
+
+<div class="clear"></div>
+
+<% if false %>
+
+	<% @recipes.each do |recipe| %>
+	  <div>
+	  	<blockquote>
+		    <b><%= recipe.difficulty %></b> -
+		    <%= recipe.filling %>
+		    <small><%= recipe.direction %></small>
+		</blockquote>
+	  </div>
+	<% end %>
+
+<% end %>

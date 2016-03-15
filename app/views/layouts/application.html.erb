@@ -19,14 +19,15 @@
 		        	<span class="icon-bar"></span>
 		        	<span class="icon-bar"></span>
 		      	</button>
-		      	<a class="navbar-brand">
+		      	<%= link_to "Home", root_path, class: 'navbar-brand' %>
+	      		<center>
 	      			<font color = "red">
       					The <b><u>BEST</b></u> Macaroon recipe that even a BEGINNER can learn!!!
 	      			</font>
 	      			<font color = "blue" size = "2">
 	      				<i>Following links to the right will take you straight to the shopping page.</i>
 	      			</font>
-      			</a>
+      			</center>
 		    </div>
 
     		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -57,7 +58,7 @@
 		        <li class="dropdown">
 		          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">How to make inside filling <span class="caret"></span></a>
 		          	<ul class="dropdown-menu">
-		            	<li><i>Coming Soon...</i></li>
+		            	<li><%= link_to "Submit your own filling recipe!", new_recipe_path %></li>
 		          	</ul>
 		        </li>
 
